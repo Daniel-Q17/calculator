@@ -1,0 +1,74 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-shadow: none;
+  border: none;
+  font-family: "Baloo 2", cursive;
+}
+
+.app {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+button {
+  width: 25%;
+  height: 25%;
+  border: none;
+}
+
+.pantalla {
+  width: 100%;
+  background-color: #e7d9ea;
+  text-align: end;
+  padding-bottom: 0.5rem;
+  padding-right: 1rem;
+}
+
+.clear {
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.num {
+  background-color: #11698e;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.operator {
+  background-color: #16c79a;
+  font-size: 1.5rem;
+}
+
+.num:hover {
+  background-color: #0a5b7e;
+}
+
+.operator:hover {
+  background-color: #20d8aa;
+}
+.clear:hover {
+  background-color: #e8e7e9;
+}
+
+.operacion {
+  font-size: 1rem;
+  color: #9b9b9b;
+  padding-top: 1rem;
+}
+
+.resultado {
+  font-size: 2rem;
+  color: #000000;
+  padding-top: 0rem;
+}
